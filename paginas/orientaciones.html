@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LGBTIQ+</title>
+  <!--Boxicons CDN Link-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="../orientacion-sexual.ico">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        <i class='bx bxs-heart icon'></i>
+        <div class="logo_name"><span class="color-palabra">LGBTIQ+</span></div>
+      </div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+
+    <ul class="nav_list">
+      <li>
+        <a href="../index.html">
+          <i class='bx bxs-dashboard'></i>
+          <span class="links_name">Inicio</span>
+        </a>
+        <span class="tooltip">Inicio</span>
+      </li>
+
+      <li>
+        <a href="definicion.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Definicion</span>
+        </a>
+        <span class="tooltip">Definicion</span>
+      </li>
+
+      <li>
+        <a href="banderas.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Banderas</span>
+        </a>
+        <span class="tooltip">Banderas</span>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Orientacion sexual</span>
+        </a>
+        <span class="tooltip">Orientacion</span>
+      </li>
+
+      <li>
+        <a href="caracteristicas.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Caracteristicas</span>
+        </a>
+        <span class="tooltip">Caracteristicas</span>
+      </li>
+
+      <li>
+        <a href="genero.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Genero</span>
+        </a>
+        <span class="tooltip">Genero</span>
+      </li>
+
+      <li>
+        <a href="identidad.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Identidad</span>
+        </a>
+        <span class="tooltip">Identidad</span>
+      </li>
+
+      <li>
+        <a href="lgbti.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">LGBTI</span>
+        </a>
+        <span class="tooltip">LGBTI</span>
+      </li>
+
+      <li>
+        <a href="neutro.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Lenguaje Neutro</span>
+        </a>
+        <span class="tooltip">Neutro</span>
+      </li>
+
+      <li>
+        <a href="reloj.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Fechas</span>
+        </a>
+        <span class="tooltip">Fechas</span>
+      </li>
+
+      <li>
+        <a href="quiz.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Quiz</span>
+        </a>
+        <span class="tooltip">Quiz</span>
+      </li>
+
+      <li>
+        <a href="bibliografia.html">
+          <i class='bx bx-chevron-right'></i>
+          <span class="links_name">Bibliografia</span>
+        </a>
+        <span class="tooltip">Bibliografia</span>
+      </li>
+
+    </ul>
+  </div>
+
+  <div id="hero">
+    <div class="container">
+      <h2>¿Quién tiene <span class="color-palabra">Orientación Sexual</span>?</h2>
+      <p>Todas las personas tienen una orientación sexual, independientemente de si son heterosexuales, homosexuales, bisexuales, asexuales, o presentan otra expresión de la sexualidad humana.</p><br>
+      <h2>¿Son la Orientación Sexual o la identidad de género algo con lo que se nace, o por el contrario se desarrolla o manifiesta con el tiempo?</h2>
+      <p>Se trata de un debate abierto en todo el mundo, pero fuera del alcance de este curso. Independientemente de cómo se forman, la orientación sexual y la identidad de género son,junto al sexo, un elemento tan fundamental para la dignidad humana, que aquellas personas que son perseguidas por su causa reciben protección internacional.</p>
+    </div>
+  </div>
+
+  <script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+
+    btn.onclick = function () {
+      sidebar.classList.toggle("active");
+    }
+  </script>
+</body>
+
+</html>

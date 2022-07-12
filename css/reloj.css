@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #EFEFEF;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ? ----- PORTADA ----- */
+.portada {
+	width: 100%;
+  background-image: linear-gradient(0deg,
+  rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url(../fotos/bandera-lgbt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+.portada.oculta {
+	transform: translateY(100%);
+}
+
+.portada .header {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.portada .header .logotipo {
+	color: #fff;
+	font-size: 50px;
+	font-size: 900;
+	margin-bottom: 20px;
+}
+
+
+.mensaje  {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	
+}
+
+
+
+/* ? ----- MAIN ----- */
+main {
+	max-width: 1000px;
+	margin: auto;
+	width: 90%;
+	padding: 60px 0;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+}
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta, #cuentav2, #cuentav3 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.simply-section {
+	background: #fff;
+	width: 180px;
+	height: 130px;
+	margin: 0 20px;
+	border-radius: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+
+/* ? ---------------------------- */
+
+
+
+/* ? ----- REDES SOCIALES ----- */
+.volver-inicio .btn {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background: blueviolet;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+.volver-inicio .btn:hover {
+	box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.5);
+}
+
+/* ? ----- MODAL ----- */
+
+.modal-container {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.3);
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	pointer-events: none;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+.show {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.modal {
+	background-color: #fff;
+	width: 80vw;
+	height: 90%;
+	padding: 30px 50px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.modal p {
+	margin-bottom: 30px;
+}
+
+.modal .btn {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background: blueviolet;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+.modal .btn:hover {
+	box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.5);
+}
+
+.modal h1 {
+	margin: 0;
+}
+
+.modal p {
+	opacity: 0.7;
+	font-size: 14px;
+}

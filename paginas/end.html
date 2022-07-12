@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz LGBIT+</title>
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="../orientacion-sexual.ico">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Pon tu nombre abajo para guarda tu puntuacion!</h2>
+                <input type="text" name="name" id="username" placeholder="Pon tu nombre">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Guardar</button>
+            </form>
+            <a href="game.html" class="btn">Play Again</a>
+            <a href="quiz.html" class="btn">Volver al inicio<i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <script src="../js/end.js"></script>
+</body>
+</html>
