@@ -8,7 +8,7 @@
 
 body {
 	background: #EFEFEF;
-  font-family: 'Poppins', sans-serif;
+  	font-family: 'Poppins', sans-serif;
 }
 
 
@@ -111,21 +111,22 @@ main {
 
 
 /* ? ---------------------------- */
+.volver-inicio {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+ }
 
-
-
-/* ? ----- REDES SOCIALES ----- */
-.volver-inicio .btn {
-	padding: 15px 0;
+ .volver-inicio .btn {
+	padding: 15px 20px;
 	display: inline-block;
-	min-width: 120px;
 	border-radius: 5px;
 	background: blueviolet;
 	color: #fff;
-	font-size: 30px;
-	margin: 0 20px;
+	font-size: 20px;
 	transition: .3s ease all;
-}
+ }
+ 
 
 .volver-inicio .btn:hover {
 	box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.5);
